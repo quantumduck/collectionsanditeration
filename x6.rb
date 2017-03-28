@@ -10,4 +10,42 @@ phone_buttons = [['1', '2', '3'],
 
 countries = [{:name => "China", :continent => "Asia", :island => false},
              {:name => "Pakistan", :continent => "Asia", :island => false},
-             {:name => "India", :continent => "Asia", :island => false}]
+             {:name => "India", :continent => "Asia", :island => false},
+             {:name => "Japan", :continent => "Asia", :island => true}]
+
+20.times do
+  puts "I will not skateboard in the halls"
+end
+
+lines = []
+20.times do
+  lines << "I will not skateboard in the halls"
+end
+
+numbers = []
+(1..50).each do |num|
+  numbers << num
+end
+
+numsum = 0
+numbers.each do |num|
+  numsum += num
+end
+
+numbers3 = []
+(1..50).each do |num|
+  3.times do
+    numbers << num
+  end
+end
+
+island_countries = []
+countries.each do |country|
+  if country[:island]
+    island_countries << country
+  end
+end
+
+puts countries
+puts
+puts island_countries
