@@ -1,25 +1,27 @@
-myarray = ["blue", "red", "green", 32, 35, 27, 23, false, true, false, false, true,
-            "Drake", "Ed Sheeran", "Bruno Mars", :blue, :red, :green
-          ]
+colours = ["blue", "red", "green"]
+ages = [32, 35, 27, 23]
+flips = [false, true, false, false, true]
+artists = ["Drake", "Ed Sheeran", "Bruno Mars"]
+colour_syms = [:blue, :red, :green]
 
-myhash = {"homoblivious"     => "Not having the ability to recognize"\
+
+urban_defs = {"homoblivious" => "Not having the ability to recognize"\
                                 "homosexuals as homosexuals; a lack of gaydar.",
-          "Boobs Mcgee"      => "The nickname given to the girl inthe room"\
+              "Boobs Mcgee"  => "The nickname given to the girl inthe room"\
                                 "flaunting her chest the most.",
-          "Baklol"           => "A Baklol is a person who is supposed to be"\
+              "Baklol"       => "A Baklol is a person who is supposed to be"\
                                 "stupid. It is a Bihari word, generally used"\
                                 "by the people of Bihar and Eastern Uttar"\
-                                "Pradesh in India.",
+                                "Pradesh in India."
+             }
+movies = {
           "The Wizard of Oz" => 1939,
           "Citizen Kane"     => 1941,
-          "The Third Man"    => 1949,
+          "The Third Man"    => 1949
+         }
+cities = {
           "Shanghai"         => 24_256_800,
           "Karachi"          => 23_500_000,
-          "Delhi"            => 16_787_941,
-          "Katie"            => 35,
-          "Mark"             => 27,
-          "Lauren"           => 23,
+          "Delhi"            => 16_787_941
          }
-
-puts myarray
-puts myhash
+sis_and_friends = {"Katie" => 35, "Mark" => 27, "Lauren" => 23}
